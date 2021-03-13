@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -4905,7 +4907,7 @@ input, select, textarea {
 	}
 
 		.spotlight.style1 .content {
-			padding: 7rem 7rem 5rem 7rem ;
+			padding: 8rem 7rem 5rem 7rem ;
 			-moz-align-self: center;
 			-webkit-align-self: center;
 			-ms-align-self: center;
@@ -4919,7 +4921,7 @@ input, select, textarea {
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
 			width: 60%;
-			max-width: 64rem;
+			max-width: 40rem;
 			margin: 0 auto;
 		}
 
@@ -4934,7 +4936,8 @@ input, select, textarea {
 			flex-shrink: 0;
 			width: 40%;
 			min-width: 25rem;
-			border-radius: 0;
+			max-height: 27rem;
+			max-width: 27rem;
 		}
 
 			.spotlight.style1 .image img {
